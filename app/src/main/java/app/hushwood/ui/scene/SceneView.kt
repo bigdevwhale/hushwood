@@ -129,7 +129,8 @@ fun SceneView(spec: SceneSpec, modifier: Modifier = Modifier) {
             fun dot(x: Int, y: Int, c: Int, a: Float = 1f) {
                 drawRect(Color(c).copy(alpha = a), Offset((ox + x * scale).toFloat(), (oy + y * scale).toFloat()), Size(scale.toFloat(), scale.toFloat()))
             }
-            drawImage(img, IntOffset.Zero, IntSize(artW, artH), IntOffset(ox, oy), IntSize(artW * scale, artH * scale), filterQuality = FilterQuality.None)
+            // The bitmap's own size: while a new one is painted after a resize, the old one is drawn as it was.
+            drawImage(img, IntOffset.Zero, IntSize(img.width, img.height), IntOffset(ox, oy), IntSize(img.width * scale, img.height * scale), filterQuality = FilterQuality.None)
 
             val t = if (Art.still) 12f else (now % 1_000_000L) / 1000f
             // The fire flickers quickly; wings and fireflies at an easy pace; grass on a slow wind.

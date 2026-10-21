@@ -219,7 +219,8 @@ fun SitScreen(woods: Woods, go: Go) {
                 Spacer(Modifier.height(8.dp))
             }
             val moved = now - feel.movedAt < 6_000 && feel.movedAt > 0
-            Text(Words.calm(calm, moved && kind.still).of(ru), style = UType.Line, textAlign = TextAlign.Center)
+            // Always two lines tall, so the picture above never changes size when the line does.
+            Text(Words.calm(calm, moved && kind.still).of(ru), style = UType.Line, textAlign = TextAlign.Center, minLines = 2, maxLines = 2)
             Spacer(Modifier.height(16.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 SoftButton(stringResource(R.string.stand_up), {

@@ -93,10 +93,14 @@ object Stage {
                 }
             }
         }
+        // While you sit, your seat is taken: nobody perches on you.
+        val seat = if (sitting && spot != null) lay.spot(spot) else null
+        fun takenBySeat(x: Int, y: Int) = seat != null && kotlin.math.abs(x - seat.first) < lay.x(14) && y <= seat.second + lay.x(4) && y >= seat.second - lay.x(22)
         for (b in present) {
             if (b.swarm || b.flying) { out += Actor(b, 0, 0); continue }
             val list = slots(b)
-            val free = list.firstOrNull { sl -> out.none { a -> !a.eyes && kotlin.math.abs(a.x - lay.x(sl.x)) < lay.x(12) && kotlin.math.abs(a.y - lay.y(sl.up)) < lay.x(8) } } ?: list.last()
+            val open = list.filter { sl -> !takenBySeat(lay.x(sl.x), lay.y(sl.up)) }.ifEmpty { listOf(Slot(list.last().x + 30f, list.last().up, list.last().flip)) }
+            val free = open.firstOrNull { sl -> out.none { a -> !a.eyes && kotlin.math.abs(a.x - lay.x(sl.x)) < lay.x(12) && kotlin.math.abs(a.y - lay.y(sl.up)) < lay.x(8) } } ?: open.last()
             out += at(free, b)
         }
         return out
