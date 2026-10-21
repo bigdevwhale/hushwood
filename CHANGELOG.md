@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.0] - 2026-10-21
 
 - Sit quietly in a pixel-art place: animals come out as the quiet builds and run when the phone moves.
 - Four places (forest clearing, lake, mountain meadow, shore) with 38 animals, their own hours and seasons, and rare guests.
