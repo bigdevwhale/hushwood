@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Hushwood" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/window</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/moss</item>
+        <item name="colorAccent">@color/moss</item>
+    </style>
+</resources>

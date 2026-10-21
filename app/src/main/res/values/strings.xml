@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Hushwood</string>
+    <string name="widget_label">The clearing</string>
+
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="settings">Settings</string>
+    <string name="n_min">%d min</string>
+    <string name="h_min">%1$d h %2$d min</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="two_days_ago">Two days ago</string>
+    <string name="rare">rare</string>
+    <string name="unknown">Not met yet</string>
+    <string name="all_year">all year</string>
+
+    <string name="tab_place">Place</string>
+    <string name="tab_journal">Journal</string>
+    <string name="tab_keeper">Guardian</string>
+
+    <string name="welcome_1">Put the phone down and sit still. The longer and quieter you sit, the bolder the forest gets.</string>
+    <string name="welcome_2">After two weeks one animal steps out and stays: your guardian, chosen by how you practise.</string>
+    <string name="welcome_3">Every minute counts: a lake, a mountain meadow and the sea open along the way, each with animals of its own.</string>
+    <string name="welcome_pick">What do you practise?</string>
+    <string name="welcome_pick_sub">Pick a few. You can rename them and add your own later.</string>
+    <string name="welcome_enter">Into the forest</string>
+
+    <string name="min_today">min today</string>
+    <string name="sit_quietly">Sit quietly</string>
+    <string name="back_to_sitting">Back to the sitting</string>
+    <string name="write_down">Write down</string>
+    <string name="setup_title">Sit down</string>
+    <string name="setup_practice">Practice</string>
+    <string name="setup_length">How long</string>
+    <string name="setup_rhythm">Breathing rhythm</string>
+    <string name="setup_moving">A practice in motion: put the phone aside. The animals come a little slower but don\'t mind you moving.</string>
+    <string name="setup_start">Begin</string>
+    <string name="places_title">Where to sit</string>
+    <string name="place_opens">Opens in %d more min of practice</string>
+
+    <string name="stand_up">Stand up</string>
+    <string name="leave_title">Stand up already?</string>
+    <string name="leave_sub">Less than a minute: this sitting won\'t be kept.</string>
+    <string name="leave_yes">Stand up</string>
+
+    <string name="after_title">The sitting is over</string>
+    <string name="after_still">Longest stillness %1$d min · startled them %2$d times</string>
+    <string name="after_guardian">Out of the trees steps your guardian</string>
+    <string name="after_portrait">A portrait is finished</string>
+    <string name="after_portrait_sub">It goes up on the shelf, and the next one begins.</string>
+    <string name="after_who">Who came out</string>
+    <string name="after_nobody">Nobody came out this time</string>
+    <string name="after_nobody_sub">They were near. Next time, sit a little longer and a little stiller.</string>
+    <string name="after_first">first time!</string>
+    <string name="after_gift">%1$s left you %2$s.</string>
+    <string name="after_note">One line about it</string>
+    <string name="after_note_hint">It goes into the herbarium as a pressed leaf</string>
+    <string name="after_offering">Leave on the stump</string>
+    <string name="after_offering_sub">Whoever likes it will come sooner next time. More is gathered as the minutes add up.</string>
+
+    <string name="log_title">Write down a practice</string>
+    <string name="log_sub">Done away from the phone: a class, a walk, a page. Fewer animals come to these, but the place remembers.</string>
+    <string name="log_when">When</string>
+    <string name="log_save">Save</string>
+
+    <string name="journal_title">Field journal</string>
+    <string name="journal_meetings">Meetings</string>
+    <string name="journal_herbarium">Herbarium</string>
+    <string name="journal_rings">Rings</string>
+    <string name="journal_met">%1$d of %2$d met</string>
+    <string name="beast_when">Comes at %1$s · %2$s</string>
+    <string name="beast_likes">Likes %s</string>
+    <string name="beast_seen">Came %1$d times, first on %2$s</string>
+    <string name="herbarium_empty">Write one line after a sitting, and it\'s pressed here as a leaf.</string>
+    <string name="rings_sub">From the heart (January) to the bark (December): the darker the day, the longer you sat.</string>
+    <string name="stat_total">this year</string>
+    <string name="stat_days">days</string>
+    <string name="stat_sittings">sittings</string>
+    <string name="by_practice">By practice</string>
+
+    <string name="keeper_title">Guardian</string>
+    <string name="keeper_watching">The forest is watching how you practise. Soon one of them will step out.</string>
+    <string name="keeper_soon">Not long now</string>
+    <string name="keeper_soon_sub">Days left to watch: %1$d · sittings: %2$d</string>
+    <string name="keeper_painted">%d%% of the portrait painted</string>
+    <string name="keeper_trust">How close</string>
+    <string name="keeper_trust_sub">It comes closer the more days you sit out of the last two weeks. A missed week is no harm: it just grows shy again.</string>
+    <string name="keeper_hint">A suggestion</string>
+    <string name="keeper_gifts">Left for you</string>
+    <string name="keeper_gifts_empty">Once it sleeps beside you, it will sometimes leave something by the stump.</string>
+    <string name="keeper_shelf">Finished portraits</string>
+    <string name="keeper_about">Each sitting paints a little of the portrait, tinted by its hour. When one is finished, the forest looks again at your last %d days, and the guardian may change.</string>
+
+    <string name="set_practices">Practices</string>
+    <string name="set_add_practice">Add a practice</string>
+    <string name="set_edit_practice">Practice</string>
+    <string name="set_practice_hint">Name</string>
+    <string name="set_archive">Remove</string>
+    <string name="kind_still">Done sitting or lying still: stillness brings the animals.</string>
+    <string name="kind_moving">Done in motion: the phone can move, the animals come a little slower.</string>
+    <string name="set_sitting">Sitting</string>
+    <string name="set_sound">The place\'s sounds</string>
+    <string name="set_sound_sub">Wind, water, birds, crickets</string>
+    <string name="set_bell">Bell at the end</string>
+    <string name="set_bell_sub">A soft tingsha</string>
+    <string name="set_dim">Darken when face down</string>
+    <string name="set_dim_sub">The screen goes almost black while the phone lies face down</string>
+    <string name="set_haptics">Vibration</string>
+    <string name="set_remind">Reminder</string>
+    <string name="set_remind_on">A daily reminder</string>
+    <string name="set_remind_sub">Only on days you haven\'t sat yet</string>
+    <string name="set_remind_at">Time</string>
+    <string name="set_language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="set_about">About</string>
+    <string name="set_about_text">Hushwood works without the internet and without an account. Everything stays on this phone.</string>
+
+    <string name="channel">Reminders</string>
+    <string name="channel_desc">Once a day, if you haven\'t sat yet</string>
+    <string name="remind_title">The clearing is quiet. Someone may come out.</string>
+    <string name="remind_guardian">%s is waiting for you</string>
+    <string name="remind_text">Sit for a few minutes.</string>
+</resources>

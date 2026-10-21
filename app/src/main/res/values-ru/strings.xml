@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_label">Поляна</string>
+
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="done">Готово</string>
+    <string name="next">Дальше</string>
+    <string name="settings">Настройки</string>
+    <string name="n_min">%d мин</string>
+    <string name="h_min">%1$d ч %2$d мин</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="two_days_ago">Позавчера</string>
+    <string name="rare">редкий гость</string>
+    <string name="unknown">Ещё не встречали</string>
+    <string name="all_year">круглый год</string>
+
+    <string name="tab_place">Место</string>
+    <string name="tab_journal">Журнал</string>
+    <string name="tab_keeper">Хранитель</string>
+
+    <string name="welcome_1">Положи телефон и замри. Чем дольше и тише ты сидишь, тем смелее становится лес.</string>
+    <string name="welcome_2">Через две недели один зверь выйдет и останется: твой хранитель. Его выбор зависит от того, как ты практикуешь.</string>
+    <string name="welcome_3">Каждая минута идёт в счёт: по пути откроются озеро, горный луг и море, и у каждого места свои звери.</string>
+    <string name="welcome_pick">Что ты практикуешь?</string>
+    <string name="welcome_pick_sub">Выбери несколько. Потом можно переименовать их и добавить свои.</string>
+    <string name="welcome_enter">В лес</string>
+
+    <string name="min_today">мин сегодня</string>
+    <string name="sit_quietly">Сесть тихо</string>
+    <string name="back_to_sitting">Вернуться к практике</string>
+    <string name="write_down">Записать</string>
+    <string name="setup_title">Присесть</string>
+    <string name="setup_practice">Практика</string>
+    <string name="setup_length">Сколько</string>
+    <string name="setup_rhythm">Ритм дыхания</string>
+    <string name="setup_moving">Практика в движении: отложи телефон. Звери придут чуть медленнее, но движения не испугаются.</string>
+    <string name="setup_start">Начать</string>
+    <string name="places_title">Где сесть</string>
+    <string name="place_opens">Откроется ещё через %d мин практики</string>
+
+    <string name="stand_up">Встать</string>
+    <string name="leave_title">Уже встать?</string>
+    <string name="leave_sub">Меньше минуты: эта практика не сохранится.</string>
+    <string name="leave_yes">Встать</string>
+
+    <string name="after_title">Практика окончена</string>
+    <string name="after_still">Самая долгая тишина: %1$d мин · вспугнуто раз: %2$d</string>
+    <string name="after_guardian">Из леса выходит твой хранитель</string>
+    <string name="after_portrait">Портрет готов</string>
+    <string name="after_portrait_sub">Он встаёт на полку, и начинается следующий.</string>
+    <string name="after_who">Кто выходил</string>
+    <string name="after_nobody">В этот раз никто не вышел</string>
+    <string name="after_nobody_sub">Они были рядом. В следующий раз посиди чуть дольше и чуть тише.</string>
+    <string name="after_first">впервые!</string>
+    <string name="after_gift">%1$s оставляет тебе %2$s.</string>
+    <string name="after_note">Одна строчка о том, как было</string>
+    <string name="after_note_hint">Она ляжет в гербарий засушенным листом</string>
+    <string name="after_offering">Оставить на пне</string>
+    <string name="after_offering_sub">Кто это любит, придёт в следующий раз быстрее. С минутами практики запасов становится больше.</string>
+
+    <string name="log_title">Записать практику</string>
+    <string name="log_sub">Без телефона: занятие, прогулка, страница в блокноте. Зверей приходит меньше, но место всё помнит.</string>
+    <string name="log_when">Когда</string>
+    <string name="log_save">Сохранить</string>
+
+    <string name="journal_title">Полевой журнал</string>
+    <string name="journal_meetings">Встречи</string>
+    <string name="journal_herbarium">Гербарий</string>
+    <string name="journal_rings">Кольца</string>
+    <string name="journal_met">Встречено: %1$d из %2$d</string>
+    <string name="beast_when">Когда: %1$s · %2$s</string>
+    <string name="beast_likes">Любит: %s</string>
+    <string name="beast_seen">Встреч: %1$d, первая — %2$s</string>
+    <string name="herbarium_empty">Запиши строчку после практики, и она ляжет сюда засушенным листом.</string>
+    <string name="rings_sub">От сердцевины (январь) до коры (декабрь): чем темнее день, тем дольше практика.</string>
+    <string name="stat_total">за год</string>
+    <string name="stat_days">дней</string>
+    <string name="stat_sittings">практик</string>
+    <string name="by_practice">По практикам</string>
+
+    <string name="keeper_title">Хранитель</string>
+    <string name="keeper_watching">Лес присматривается к тому, как ты практикуешь. Скоро кто-то из них выйдет.</string>
+    <string name="keeper_soon">Уже скоро</string>
+    <string name="keeper_soon_sub">Осталось дней: %1$d · практик: %2$d</string>
+    <string name="keeper_painted">Портрет написан на %d%%</string>
+    <string name="keeper_trust">Насколько близко</string>
+    <string name="keeper_trust_sub">Он подходит ближе, чем больше дней с практикой за последние две недели. Пропущенная неделя не страшна: он просто снова немного дичится.</string>
+    <string name="keeper_hint">Подсказка</string>
+    <string name="keeper_gifts">Оставлено для тебя</string>
+    <string name="keeper_gifts_empty">Когда он начнёт спать рядом, иногда будет оставлять что-нибудь у пня.</string>
+    <string name="keeper_shelf">Готовые портреты</string>
+    <string name="keeper_about">Каждая практика дописывает кусочек портрета цветом своего часа. Когда портрет готов, лес снова смотрит на твои последние %d дней, и хранитель может смениться.</string>
+
+    <string name="set_practices">Практики</string>
+    <string name="set_add_practice">Добавить практику</string>
+    <string name="set_edit_practice">Практика</string>
+    <string name="set_practice_hint">Название</string>
+    <string name="set_archive">Убрать</string>
+    <string name="kind_still">Сидя или лёжа неподвижно: тишина приводит зверей.</string>
+    <string name="kind_moving">В движении: телефон может двигаться, звери приходят чуть медленнее.</string>
+    <string name="set_sitting">Практика</string>
+    <string name="set_sound">Звуки места</string>
+    <string name="set_sound_sub">Ветер, вода, птицы, сверчки</string>
+    <string name="set_bell">Колокольчик в конце</string>
+    <string name="set_bell_sub">Мягкая тингша</string>
+    <string name="set_dim">Темнить экраном вниз</string>
+    <string name="set_dim_sub">Экран почти гаснет, пока телефон лежит лицом вниз</string>
+    <string name="set_haptics">Вибрация</string>
+    <string name="set_remind">Напоминание</string>
+    <string name="set_remind_on">Напоминать каждый день</string>
+    <string name="set_remind_sub">Только если сегодня ещё не было практики</string>
+    <string name="set_remind_at">Время</string>
+    <string name="set_language">Язык</string>
+    <string name="lang_system">Системный</string>
+    <string name="set_about">О приложении</string>
+    <string name="set_about_text">Hushwood работает без интернета и без аккаунта. Всё остаётся на этом телефоне.</string>
+
+    <string name="channel">Напоминания</string>
+    <string name="channel_desc">Раз в день, если ещё не было практики</string>
+    <string name="remind_title">На поляне тихо. Кто-нибудь может выйти.</string>
+    <string name="remind_guardian">%s ждёт тебя</string>
+    <string name="remind_text">Посиди несколько минут.</string>
+</resources>
