@@ -63,21 +63,14 @@ fun KeeperScreen(woods: Woods) {
         if (g == null || portrait == null) {
             Spacer(Modifier.height(8.dp))
             Text(stringResource(R.string.keeper_watching), style = UType.Line)
-            Spacer(Modifier.height(20.dp))
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), maxItemsInEachRow = 4) {
-                Beast.Keepers.forEach { b ->
-                    Box(Modifier.weight(1f).height(84.dp).clip(U.RMd).background(U.c.surface).border(1.dp, U.c.line, U.RMd), contentAlignment = Alignment.Center) {
-                        BeastIcon(b, 64.dp, unknown = true, animate = false)
-                    }
-                }
-            }
-            Spacer(Modifier.height(20.dp))
+            Spacer(Modifier.height(16.dp))
             val (days, sits) = woods.toReveal
             UCard {
                 Text(stringResource(R.string.keeper_soon), style = UType.Strong)
                 Spacer(Modifier.height(4.dp))
                 Text(stringResource(R.string.keeper_soon_sub, days, sits), style = UType.Muted)
             }
+            Ways(woods)
             Spacer(Modifier.height(24.dp))
             return@Column
         }
@@ -142,8 +135,35 @@ fun KeeperScreen(woods: Woods) {
                 }
             }
         }
+        Ways(woods)
         Spacer(Modifier.height(10.dp))
         Text(stringResource(R.string.keeper_about, Keeper.WINDOW_DAYS), style = UType.Small, modifier = Modifier.padding(vertical = 16.dp))
+    }
+}
+
+/** Every guardian there is, and the way of practising that brings each one out; known ones in colour. */
+@Composable
+private fun Ways(woods: Woods) {
+    val ru = woods.ru
+    val known = woods.portraits.map { it.beast }.toSet()
+    SectionTitle(stringResource(R.string.keeper_ways))
+    Text(stringResource(R.string.keeper_ways_sub), style = UType.Muted)
+    Spacer(Modifier.height(10.dp))
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Beast.Keepers.forEach { b ->
+            val here = b == woods.guardian
+            Row(
+                Modifier.fillMaxWidth().clip(U.RMd).background(if (here) U.c.mossSoft else U.c.surface).border(1.dp, if (here) U.c.moss.copy(alpha = 0.5f) else U.c.line, U.RMd).padding(10.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Box(Modifier.size(56.dp), contentAlignment = Alignment.Center) { BeastIcon(b, 52.dp, unknown = b !in known, animate = here) }
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text(Words.name(b).of(ru) + " · " + Words.quality(b).of(ru), style = UType.Strong)
+                    Text(Words.way(b).of(ru), style = UType.Muted)
+                }
+            }
+        }
     }
 }
 

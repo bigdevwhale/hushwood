@@ -238,6 +238,19 @@ object Words {
         else -> W("", "")
     }
 
+    /** How to practise for this one to choose you. */
+    fun way(b: Beast): W = when (b) {
+        Beast.WREN -> W("Short sittings, early in the morning, nearly every day.", "Коротко, рано утром, почти каждый день.")
+        Beast.OWL -> W("Long sittings late in the evening or at night.", "Подолгу, поздно вечером или ночью.")
+        Beast.HERON -> W("Breathing practices, and staying very still.", "Дыхательные практики и полная неподвижность.")
+        Beast.CRANE -> W("Practice in motion: yoga, stretching, walks.", "Практика в движении: йога, растяжка, прогулки.")
+        Beast.BEAR -> W("Not every day, but long sittings of half an hour or more.", "Не каждый день, но подолгу — от получаса.")
+        Beast.FOX -> W("At different hours each day, whenever it fits.", "В разное время, когда получается.")
+        Beast.HEDGEHOG -> W("Evenings at dusk, a journal or a line about the day.", "Вечером в сумерках, дневник или строчка о дне.")
+        Beast.DEER -> W("Several different practices, sometimes more than once a day.", "Разные практики, иногда по нескольку раз в день.")
+        else -> W("", "")
+    }
+
     fun hint(b: Beast): W = when (b) {
         Beast.WREN -> W("Try three minutes right after waking.", "Попробуй три минуты сразу после пробуждения.")
         Beast.OWL -> W("Try sitting in the dark, without the screen.", "Попробуй посидеть в темноте, без экрана.")

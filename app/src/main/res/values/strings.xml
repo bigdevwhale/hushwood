@@ -91,6 +91,8 @@
     <string name="keeper_hint">A suggestion</string>
     <string name="keeper_gifts">Left for you</string>
     <string name="keeper_gifts_empty">Once it sleeps beside you, it will sometimes leave something by the stump.</string>
+    <string name="keeper_ways">Who can come out</string>
+    <string name="keeper_ways_sub">The guardian is the animal whose way is closest to how you practise, read from your last two months.</string>
     <string name="keeper_shelf">Finished portraits</string>
     <string name="keeper_about">Each sitting paints a little of the portrait, tinted by its hour. When one is finished, the forest looks again at your last %d days, and the guardian may change.</string>
 

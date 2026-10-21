@@ -90,6 +90,8 @@
     <string name="keeper_hint">Подсказка</string>
     <string name="keeper_gifts">Оставлено для тебя</string>
     <string name="keeper_gifts_empty">Когда он начнёт спать рядом, иногда будет оставлять что-нибудь у пня.</string>
+    <string name="keeper_ways">Кто может выйти</string>
+    <string name="keeper_ways_sub">Хранитель — тот зверь, чей путь ближе всего к тому, как ты практикуешь. Лес смотрит на последние два месяца.</string>
     <string name="keeper_shelf">Готовые портреты</string>
     <string name="keeper_about">Каждая практика дописывает кусочек портрета цветом своего часа. Когда портрет готов, лес снова смотрит на твои последние %d дней, и хранитель может смениться.</string>
 
