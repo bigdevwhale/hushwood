@@ -40,6 +40,10 @@ Shy animals come out when you're still. Hushwood turns that into a practice: you
 - **The real hour and season.** Dawn, day, dusk and night; spring flowers, summer fireflies, autumn leaves, winter snow.
 - **Widget and reminder.** The place on the home screen as it is now, and an optional daily reminder on days you haven't sat.
 
+## Sounds
+
+The ambience is real field recordings (CC0, CC BY and public domain) as edited for the Blanket app; see [CREDITS.md](CREDITS.md). The sounds can be switched on and off right in the sitting.
+
 ## Privacy
 
 Everything stays on the phone. No accounts, no analytics, no internet permission. The accelerometer is read only while a sitting is on.

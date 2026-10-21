@@ -41,6 +41,8 @@
     <string name="places_title">Where to sit</string>
     <string name="place_opens">Opens in %d more min of practice</string>
 
+    <string name="sound_on">Turn the sounds on</string>
+    <string name="sound_off">Turn the sounds off</string>
     <string name="stand_up">Stand up</string>
     <string name="leave_title">Stand up already?</string>
     <string name="leave_sub">Less than a minute: this sitting won\'t be kept.</string>
@@ -118,7 +120,7 @@
     <string name="set_language">Language</string>
     <string name="lang_system">System</string>
     <string name="set_about">About</string>
-    <string name="set_about_text">Hushwood works without the internet and without an account. Everything stays on this phone.</string>
+    <string name="set_about_text">Hushwood works without the internet and without an account. Everything stays on this phone. The sounds are field recordings by kvgarlic, felix.blume, gluckose (CC0), Luftrum (CC BY), ezwa and Lisa Redfern (public domain), edited for the Blanket app.</string>
 
     <string name="channel">Reminders</string>
     <string name="channel_desc">Once a day, if you haven\'t sat yet</string>

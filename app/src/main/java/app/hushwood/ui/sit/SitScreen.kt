@@ -19,6 +19,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack
+import androidx.compose.material.icons.automirrored.rounded.VolumeOff
+import androidx.compose.material.icons.automirrored.rounded.VolumeUp
 import androidx.compose.material.icons.rounded.Check
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -163,7 +165,7 @@ fun SitScreen(woods: Woods, go: Go) {
 
     // The forest's sounds while you sit.
     LaunchedEffect(s.sound, woods.place) {
-        if (s.sound && !Art.still) Sound.ambience(Sound.Mood(woods.place, woods.part, woods.season, spot == app.hushwood.domain.Spot.FIRE))
+        if (s.sound && !Art.still) Sound.ambience(c, Sound.Mood(woods.place, woods.part, woods.season, spot == app.hushwood.domain.Spot.FIRE))
         else Sound.stop()
     }
     DisposableEffect(Unit) { onDispose { Sound.stop() } }
@@ -205,6 +207,14 @@ fun SitScreen(woods: Woods, go: Go) {
                 Column(Modifier.weight(1f)) {
                     Text(practice?.name ?: "", style = UType.Strong)
                     Text(Words.place(woods.place).of(ru) + ", " + Words.spot(woods.place, spot).of(ru), style = UType.Muted)
+                }
+                // The place's sounds, on and off right here.
+                IconButton(onClick = { c.container.write { settings.update { it.copy(sound = !it.sound) } } }) {
+                    Icon(
+                        if (s.sound) Icons.AutoMirrored.Rounded.VolumeUp else Icons.AutoMirrored.Rounded.VolumeOff,
+                        stringResource(if (s.sound) R.string.sound_off else R.string.sound_on),
+                        tint = if (s.sound) U.c.ink else U.c.muted,
+                    )
                 }
             }
             val secs = (now - sitting.start) / 1000

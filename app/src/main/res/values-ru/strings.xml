@@ -40,6 +40,8 @@
     <string name="places_title">Где сесть</string>
     <string name="place_opens">Откроется ещё через %d мин практики</string>
 
+    <string name="sound_on">Включить звуки</string>
+    <string name="sound_off">Выключить звуки</string>
     <string name="stand_up">Встать</string>
     <string name="leave_title">Уже встать?</string>
     <string name="leave_sub">Меньше минуты: эта практика не сохранится.</string>
@@ -117,7 +119,7 @@
     <string name="set_language">Язык</string>
     <string name="lang_system">Системный</string>
     <string name="set_about">О приложении</string>
-    <string name="set_about_text">Hushwood работает без интернета и без аккаунта. Всё остаётся на этом телефоне.</string>
+    <string name="set_about_text">Hushwood работает без интернета и без аккаунта. Всё остаётся на этом телефоне. Звуки — полевые записи kvgarlic, felix.blume, gluckose (CC0), Luftrum (CC BY), ezwa и Lisa Redfern (общественное достояние), подготовленные для приложения Blanket.</string>
 
     <string name="channel">Напоминания</string>
     <string name="channel_desc">Раз в день, если ещё не было практики</string>
